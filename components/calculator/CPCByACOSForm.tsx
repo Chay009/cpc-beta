@@ -86,7 +86,7 @@ export function CPCByACOSForm({ onCalculate }: any) {
           render={({ field }) => (
             <FormItem>
               <FormLabel>Target ACOS (%)</FormLabel>
-              <p className="text-sm text-gray-500 mb-2">Target ACOS (This is ACOS that you want to achieve)</p>
+              <p className="text-sm text-gray-500 mb-2">This is ACOS that you want to achieve.</p>
               <FormControl>
                 <Input 
                 placeholder=""
@@ -104,7 +104,7 @@ export function CPCByACOSForm({ onCalculate }: any) {
           render={({ field }) => (
             <FormItem>
               <FormLabel>Conversion Rate (%)</FormLabel>
-              <p className="text-sm text-gray-500 mb-2">This is your or your category's conversion rate on ads. Conversion rate is calculated as Ad orders/ Ad clicks</p>
+              <p className="text-sm text-gray-500 mb-2">This is your conversion rate on ads. Conversion rate is calculated as Ad orders/ Ad clicks</p>
               <FormControl>
                 <Input 
                 placeholder=""
