@@ -1,4 +1,37 @@
-import { CpcChart } from "@/components/calculator/Chart_Cpc";
+
+
+interface CPCByACOSInputs {
+  conversionRate: number;
+  averageOrderValue: number;
+  targetACOS: number;
+}
+
+interface CPCByCPAInputs {
+  conversionRate: number;
+  targetCPA: number;
+}
+
+interface CPCCalculationResults {
+  maxCPC: number;
+  calculation: {
+    maxCPC: number;
+    conversionRate: number;
+    targetACOS?: number;
+    targetCPA?: number;
+    averageOrderValue?: number;
+    formula: string;
+  };
+  chartData: ChartData[] | {
+    conversion: ChartData[];
+    cpa: ChartData[];
+  };
+}
+
+interface ChartData {
+  name: string;
+  acos?: number;
+  cpc?: number;
+}
 
 export const calculateCPCByACOS = (data: CPCByACOSInputs): CPCCalculationResults => {
   const maxCPC = (data.conversionRate / 100) * data.averageOrderValue * (data.targetACOS / 100);
