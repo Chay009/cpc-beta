@@ -72,7 +72,7 @@ const faqs = [
     question: 'What should I do if I am facing an issue on this calculator?',
     answer: [
       { text: 'Sorry to hear that. If you can provide your feedback then our team will address this on priority and will get back to you. Please provide your feedback' },
-      { link: { text: 'here', url: 'https://docs.google.com/forms/d/e/1FAIpQLSefiNpo5LzmSUat_49B3NgH_StarqNyMnRSlzKfd5TIAYfN3A/formrestricted' } },
+      { link: { text: 'here', url: 'https://share.hsforms.com/2MJK9OXhHRvG-Eft2TQvvTgnmtwi' } },
     ],
   },
 ];

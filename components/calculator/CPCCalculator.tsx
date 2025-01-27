@@ -36,7 +36,7 @@ export function CPCCalculator() {
             <>
               <h2 className="text-base font-bold mb-4 text-left">Max CPC by Target CPA</h2>
               <p className="text-gray-700 mb-4">
-                Calculate your max. CPC by Target CPA (Cost per acquisition). This simple calculator takes into account your product's average order value (AOV or ASP) and Conversion rate on Amazon Ads to suggest max. CPC. Please note that the CPC calculated from your data is an average account level CPC. On a granular level, you will have keywords higher than this CPC as well as lower than it.
+                Calculate your max. CPC by Target CPA (Cost per acquisition). This method of finding max CPC is mostly used by CPG brands who take into account subscribe and save audience and have a high cost per acquisition allowance. This simple calculator takes into account your product's average order value (AOV or ASP) and Conversion rate on Amazon Ads to suggest max. CPC. Please note that the CPC calculated from your data is an average account level CPC. On a granular level, you will have keywords higher than this CPC as well as lower than it.
               </p>
               <ul className="list-disc list-inside text-gray-700 mb-4 leading-8">
                 <li>Step 1: Enter you product AOV or ASP</li>
