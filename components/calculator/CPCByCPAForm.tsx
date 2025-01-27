@@ -83,6 +83,7 @@ export function CPCByCPAForm({ onCalculate }: any) {
               render={({ field }) => (
                 <FormItem>
                   <FormLabel>Target Cost per Acquisition ($)</FormLabel>
+                  <p className="text-sm text-gray-500 mb-2">Target Cost per Acquisition (This is the maximum amount you want to pay to acquire a customer)</p>
                   <FormControl>
                     <Input 
                       type="number"
@@ -90,7 +91,6 @@ export function CPCByCPAForm({ onCalculate }: any) {
                       {...field}
                     />
                   </FormControl>
-                  {/* <FormDescription>Target Cost per Acquisition (This is the maximum amount you want to pay to acquire a customer)</FormDescription> */}
                   <FormMessage />
                 </FormItem>
               )}
@@ -102,6 +102,7 @@ export function CPCByCPAForm({ onCalculate }: any) {
               render={({ field }) => (
                 <FormItem>
                   <FormLabel>Conversion Rate (%)</FormLabel>
+                  <p className="text-sm text-gray-500 mb-2">This is your or your category's conversion rate on ads. Conversion rate is calculated as Ad orders/ Ad clicks</p>
                   <FormControl>
                     <Input 
                       type="number"
@@ -109,7 +110,6 @@ export function CPCByCPAForm({ onCalculate }: any) {
                       {...field}
                     />
                   </FormControl>
-                  {/* <FormDescription>Conversion rate% (This is your or your category's conversion rate on ads. Conversion rate is calculated as Ad orders/ Ad clicks).</FormDescription> */}
                   <FormMessage />
                 </FormItem>
               )}
